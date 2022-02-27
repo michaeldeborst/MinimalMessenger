@@ -39,7 +39,7 @@ class ViewController: UIViewController {
                                                 "meta.name = 'viewport';" +
                                                 "meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';" +
                                                 "var head = document.getElementsByTagName('head')[0];" +
-                                                "head.appendChild(meta);") {
+                                                "head.appendChild(meta); ") {
                  result, error in
                 guard let html = result as? String, error == nil else {
                     return
